@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="icon" href="img/bigs.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хобби</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+        }
+        header {
+            background: #000480;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .hobby-title {
+            display: inline-block; 
+            padding: 20px 40px; 
+            border: 3px solid #000480;
+            border-radius: 8px; 
+            background-color: white; 
+            color: black; 
+            font-size: 36px; 
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center; 
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0f0202; 
+            font-size: 18px; 
+        }
+        .container {
+            flex: 1; 
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Center text in the container */
+        }
+        h2 {
+            color: #007c80;
+            text-align: center; 
+        }
+        .highlight {
+            font-size: 24px; 
+            font-weight: bold; 
+            color: #000202; 
+        }
+        ul {
+            list-style-type: none; /* Remove bullet points */
+            padding-left: 0; /* Remove padding */
+            text-align: center; /* Center text in the list */
+        }
+        li {
+            margin-bottom: 20px; 
+        }
+        .image-container {
+            display: flex; /* Change to flexbox */
+            justify-content: center; /* Center images horizontally */
+            flex-wrap: wrap; /* Allow images to wrap to the next line */
+            gap: 10px; /* Space between images */
+        }
+        img {
+            width: 300px; /* Fixed width */
+            height: 200px; /* Fixed height */
+            object-fit: cover; /* Maintain aspect ratio and cover the area */
+            border-radius: 8px; 
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #000480;
+            color: white;
+        }
+    </style>
+</head>
+<body> 
+    <header>
+        <h1 class="hobby-title">Хобби</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Главное меню</a>
+        <a href="resume.html">Резюме</a>
+        <a href="gallery.html">Галерея</a>
+    </nav>
+
+    <main class="container">
+        <h2>Мои хобби</h2>
+        <p class="highlight">Я увлекаюсь:</p> 
+        <ul>
+            <li>
+                Машинами
+                <ul class="image-container">
+                    <li><img src="img/h1.jfif" alt="Фото 1(ХЕХЕХЕ😈)"></li>
+                    <li><img src="img/h2.jpg" alt="Фото 2(ХЕХЕХЕ😈)"></li>
+                </ul>
+            </li>
+            <li>
+                Рыбалкой
+                <ul class="image-container">
+                    <li><img src="img/h3.jpg" alt="Фото 3(ХЕХЕХЕ😈)"></li>
+                    <li><img src="img/h4.jpg" alt="Фото 4(ХЕХЕХЕ😈)"></li>
+                </ul>
+            </li>
+            <li>
+                Спортом
+                <ul class="image-container">
+                    <li><img src="img/h5.png" alt="Фото 5(ХЕХЕХЕ😈)"></li>
+                    <li><img src="img/h6.webp" alt="Фото 6(ХЕХЕХЕ😈)"></

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="icon" href="img/bigs.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главное меню</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+        }
+        header {
+            background: #000480; 
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .resume-title {
+            display: inline-block; 
+            padding: 20px 40px; 
+            border: 3px solid #000480; 
+            border-radius: 8px; 
+            background-color: white; 
+            color: black; 
+            font-size: 36px; 
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center; 
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0f0202; 
+            font-size: 18px; 
+        }
+        main {
+            flex: 1; 
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center; 
+        }
+        h2 {
+            color: #333;
+        }
+        .description {
+            color: #0c0101; 
+            font-size: 20px; 
+            text-align: left; 
+        }
+        .photo {
+            margin-top: 20px; 
+            max-width: 100%; 
+            height: auto; 
+            border-radius: 8px; 
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0; 
+            background: #000480;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 class="resume-title">Главное меню</h1>
+</header>
+
+<nav>
+    <a href="resume.html">Резюме</a>
+    <a href="gallery.html">Галерея</a>
+    <a href="hobby.html">Хобби</a>
+</nav>
+
+<main>
+    <h2>Добро пожаловать!</h2>
+    <p class="description">Здравствуйте! Зовут меня Маконин Егор. Я студент 1 курса Вятского государственного университета по направлению “Инфокоммуникационные технологии и системы связи” на Факультете автоматики и вычислительной техники.</p>
+    <p class="description">Я родился в небольшом провинциальном городке Нея, Костромской области.</p>
+    <p class="description">На этой странице вы найдете информацию обо мне, моих увлечениях и галерею с фотографиями.</p>
+    <p class="description">Выберите одну из вкладок выше, чтобы узнать больше!</p>
+    <img src="img/i1.jpg" alt="Фото на главном меню(ХЕХЕХЕ😈)" class="photo">
+</main>
+
+<footer>
+    <p>&copy; 2025 Маконин Егор Алексеевич</p>
+</footer>
+
+</body>
+</html>
